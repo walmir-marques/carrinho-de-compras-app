@@ -1,0 +1,30 @@
+.cart {
+  width: 100%;
+  height: 100vh;
+  max-width: 330px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 100px 20px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 400ms ease;
+}
+
+.cart-items {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.cart-resume {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 35px 0 15px;
+  border-top: 1px solid #ddd;
+}
+
+.cart-active {
+  display: flex;
+}
